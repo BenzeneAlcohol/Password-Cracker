@@ -1,0 +1,51 @@
+OpenROAD 1a1617d908d2ebdb731de9ab4e3d9fd93a6dcf97 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/results/routing/password_cracker.odb'...
+Net: net35
+  Pin: _06853_/C (sky130_fd_sc_hd__or4_2)
+    Layer: met2
+      Partial area ratio:    1.29
+      Required ratio:    0.00 (Gate area) 
+      Partial area ratio:    7.22
+      Required ratio: 2753.36 (Side area) 
+      Cumulative area ratio:  261.33
+      Required ratio:    0.00 (Cumulative area) 
+      Cumulative area ratio: 1319.89
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: met1
+      Partial area ratio:  260.04
+      Required ratio:    0.00 (Gate area) 
+      Partial area ratio: 1312.67
+      Required ratio:  400.00 (Side area) (VIOLATED)
+      Cumulative area ratio:  260.04
+      Required ratio:    0.00 (Cumulative area) 
+      Cumulative area ratio: 1312.67
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Layer: li1
+      Partial area ratio:    0.00
+      Required ratio:    0.00 (Gate area) 
+      Partial area ratio:    0.00
+      Required ratio:   75.00 (Side area) 
+      Cumulative area ratio:    0.00
+      Required ratio:    0.00 (Cumulative area) 
+      Cumulative area ratio:    0.00
+      Required ratio:    0.00 (Cumulative side area) 
+
+    Via: M1M2_PR
+      Partial area ratio:    0.18
+      Required ratio:    6.00 (Gate area) 
+      Cumulative area ratio:    0.41
+      Required ratio:    0.00 (Cumulative area) 
+
+    Via: L1M1_PR
+      Partial area ratio:    0.23
+      Required ratio:    3.00 (Gate area) 
+      Cumulative area ratio:    0.23
+      Required ratio:    0.00 (Cumulative area) 
+
+
+[INFO ANT-0002] Found 1 net violations.
+[INFO ANT-0001] Found 1 pin violations.

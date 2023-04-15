@@ -1,0 +1,219 @@
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 33 unannotated drivers.
+ init
+ password_cracker_260/HI
+ password_cracker_261/HI
+ password_cracker_262/HI
+ password_cracker_263/HI
+ password_cracker_264/HI
+ password_cracker_265/HI
+ password_cracker_266/HI
+ password_cracker_267/HI
+ password_cracker_268/HI
+ password_cracker_269/HI
+ password_cracker_270/HI
+ password_cracker_271/HI
+ password_cracker_272/HI
+ password_cracker_273/HI
+ password_cracker_274/HI
+ password_cracker_275/HI
+ password_cracker_276/HI
+ password_cracker_277/HI
+ password_cracker_278/HI
+ password_cracker_279/HI
+ password_cracker_280/HI
+ password_cracker_281/HI
+ password_cracker_282/HI
+ password_cracker_283/HI
+ password_cracker_284/HI
+ password_cracker_285/HI
+ password_cracker_286/HI
+ password_cracker_287/HI
+ password_cracker_288/HI
+ password_cracker_289/HI
+ password_cracker_290/HI
+ password_cracker_291/HI
+Found 0 partially unannotated drivers.
+parastic_annotation_check
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+input113/X                               10     35    -25 (VIOLATED)
+clkbuf_leaf_110_clk/X                    10     21    -11 (VIOLATED)
+clkbuf_leaf_1_clk/X                      10     21    -11 (VIOLATED)
+clkbuf_leaf_7_clk/X                      10     20    -10 (VIOLATED)
+clkbuf_leaf_98_clk/X                     10     20    -10 (VIOLATED)
+clkbuf_leaf_9_clk/X                      10     20    -10 (VIOLATED)
+clkbuf_leaf_2_clk/X                      10     19     -9 (VIOLATED)
+clkbuf_leaf_36_clk/X                     10     19     -9 (VIOLATED)
+input124/X                               10     19     -9 (VIOLATED)
+clkbuf_leaf_28_clk/X                     10     18     -8 (VIOLATED)
+clkbuf_leaf_65_clk/X                     10     18     -8 (VIOLATED)
+clkbuf_leaf_125_clk/X                    10     17     -7 (VIOLATED)
+clkbuf_leaf_20_clk/X                     10     17     -7 (VIOLATED)
+clkbuf_leaf_34_clk/X                     10     17     -7 (VIOLATED)
+clkbuf_leaf_91_clk/X                     10     17     -7 (VIOLATED)
+clkbuf_leaf_96_clk/X                     10     17     -7 (VIOLATED)
+input199/X                               10     17     -7 (VIOLATED)
+input227/X                               10     17     -7 (VIOLATED)
+input54/X                                10     17     -7 (VIOLATED)
+clkbuf_0_clk/X                           10     16     -6 (VIOLATED)
+clkbuf_leaf_117_clk/X                    10     16     -6 (VIOLATED)
+clkbuf_leaf_119_clk/X                    10     16     -6 (VIOLATED)
+clkbuf_leaf_19_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_24_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_25_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_35_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_40_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_56_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_83_clk/X                     10     16     -6 (VIOLATED)
+input94/X                                10     16     -6 (VIOLATED)
+clkbuf_leaf_105_clk/X                    10     15     -5 (VIOLATED)
+clkbuf_leaf_121_clk/X                    10     15     -5 (VIOLATED)
+clkbuf_leaf_123_clk/X                    10     15     -5 (VIOLATED)
+clkbuf_leaf_14_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_22_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_26_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_32_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_37_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_44_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_47_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_4_clk/X                      10     15     -5 (VIOLATED)
+clkbuf_leaf_67_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_68_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_8_clk/X                      10     15     -5 (VIOLATED)
+clkbuf_leaf_90_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_99_clk/X                     10     15     -5 (VIOLATED)
+input165/X                               10     15     -5 (VIOLATED)
+input38/X                                10     15     -5 (VIOLATED)
+clkbuf_leaf_106_clk/X                    10     14     -4 (VIOLATED)
+clkbuf_leaf_29_clk/X                     10     14     -4 (VIOLATED)
+clkbuf_leaf_39_clk/X                     10     14     -4 (VIOLATED)
+clkbuf_leaf_95_clk/X                     10     14     -4 (VIOLATED)
+input70/X                                10     14     -4 (VIOLATED)
+_07356_/X                                10     13     -3 (VIOLATED)
+clkbuf_leaf_0_clk/X                      10     13     -3 (VIOLATED)
+clkbuf_leaf_109_clk/X                    10     13     -3 (VIOLATED)
+clkbuf_leaf_11_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_126_clk/X                    10     13     -3 (VIOLATED)
+clkbuf_leaf_12_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_42_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_69_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_82_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_84_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_85_clk/X                     10     13     -3 (VIOLATED)
+input174/X                               10     13     -3 (VIOLATED)
+input8/X                                 10     13     -3 (VIOLATED)
+clkbuf_leaf_120_clk/X                    10     12     -2 (VIOLATED)
+clkbuf_leaf_27_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_45_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_59_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_5_clk/X                      10     12     -2 (VIOLATED)
+clkbuf_leaf_63_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_64_clk/X                     10     12     -2 (VIOLATED)
+_07330_/X                                10     11        (VIOLATED)
+_07333_/X                                10     11        (VIOLATED)
+_09824_/X                                10     11        (VIOLATED)
+clkbuf_leaf_100_clk/X                    10     11        (VIOLATED)
+clkbuf_leaf_103_clk/X                    10     11        (VIOLATED)
+clkbuf_leaf_107_clk/X                    10     11        (VIOLATED)
+clkbuf_leaf_10_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_122_clk/X                    10     11        (VIOLATED)
+clkbuf_leaf_124_clk/X                    10     11        (VIOLATED)
+clkbuf_leaf_13_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_21_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_23_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_33_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_3_clk/X                      10     11        (VIOLATED)
+clkbuf_leaf_41_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_57_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_70_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_76_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_89_clk/X                     10     11        (VIOLATED)
+input201/X                               10     11        (VIOLATED)
+input250/X                               10     11        (VIOLATED)
+input77/X                                10     11        (VIOLATED)
+
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 95
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack 3.33
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack 0.12
+worst_slack_end
+clock_skew
+
+===========================================================================
+ report_clock_skew
+============================================================================
+Clock clk
+Latency      CRPR       Skew
+_13912_/CLK ^
+   1.11
+_13652_/CLK ^
+   0.78     -0.05       0.28
+
+clock_skew_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             6.20e-03   4.81e-04   1.22e-08   6.68e-03  37.4%
+Combinational          5.25e-03   5.93e-03   4.21e-08   1.12e-02  62.6%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.14e-02   6.41e-03   5.43e-08   1.79e-02 100.0%
+                          64.1%      35.9%       0.0%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 88011 u^2 50% utilization.
+area_report_end
+Setting global connections for newly added cells...
+[WARNING] Did not save OpenROAD database!
+Writing SDF to /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/results/routing/mca/process_corner_nom/password_cracker.sdf...
+Writing timing model to /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/results/routing/mca/process_corner_nom/password_cracker.lib...
+

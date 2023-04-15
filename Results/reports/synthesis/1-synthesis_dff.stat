@@ -1,0 +1,25 @@
+
+21. Printing statistics.
+
+=== password_cracker ===
+
+   Number of wires:              13874
+   Number of wire bits:          16374
+   Number of public wires:         120
+   Number of public wire bits:    1799
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              15801
+     $_ANDNOT_                    3102
+     $_AND_                        206
+     $_MUX_                       5249
+     $_NAND_                       135
+     $_NOR_                        370
+     $_NOT_                        326
+     $_ORNOT_                      918
+     $_OR_                        2845
+     $_XNOR_                       577
+     $_XOR_                        631
+     sky130_fd_sc_hd__dfxtp_2     1442
+
