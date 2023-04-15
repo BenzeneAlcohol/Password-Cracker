@@ -1,0 +1,32 @@
+OpenROAD 1a1617d908d2ebdb731de9ab4e3d9fd93a6dcf97 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/results/floorplan/password_cracker.odb'...
+[INFO PDN-0001] Inserting grid: stdcell_grid
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VPWR is not explicitly set.
+[WARNING PSM-0022] Using voltage 1.800V for VDD network.
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (75.740um, 150.320um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (21.840um, 180.710um).
+[WARNING PSM-0030] VSRC location at (355.740um, 290.320um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (329.040um, 333.890um).
+[INFO PSM-0031] Number of PDN nodes on net VPWR = 4342.
+[INFO PSM-0064] Number of voltage sources = 2.
+[INFO PSM-0040] All PDN stripes on net VPWR are connected.
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VGND is not explicitly set.
+[WARNING PSM-0021] Using voltage 0.000V for ground network.
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[INFO PSM-0076] Setting metal node density to be standard cell height times 5.
+[WARNING PSM-0030] VSRC location at (75.740um, 150.320um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (25.140um, 184.010um).
+[WARNING PSM-0030] VSRC location at (355.740um, 290.320um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (332.340um, 337.190um).
+[INFO PSM-0031] Number of PDN nodes on net VGND = 4320.
+[INFO PSM-0064] Number of voltage sources = 2.
+[INFO PSM-0040] All PDN stripes on net VGND are connected.
+Setting global connections for newly added cells...
+Writing OpenROAD database to /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/tmp/floorplan/6-pdn.odb...
+Writing layout to /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/tmp/floorplan/6-pdn.def...

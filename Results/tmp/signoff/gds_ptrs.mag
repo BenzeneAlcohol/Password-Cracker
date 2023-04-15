@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 86296 88440
+string GDS_END 21864868
+string GDS_FILE /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/results/signoff/password_cracker.magic.gds
+string GDS_START 944678
+<< end >>

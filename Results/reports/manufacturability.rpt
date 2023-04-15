@@ -1,0 +1,17 @@
+Design Name: password_cracker
+Run Directory: /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/logs/signoff/34-password_cracker.lef.lvs.log
+Number of nets: 8910                       |Number of nets: 8910                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.

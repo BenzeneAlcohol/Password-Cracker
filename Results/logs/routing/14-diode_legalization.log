@@ -1,0 +1,22 @@
+OpenROAD 1a1617d908d2ebdb731de9ab4e3d9fd93a6dcf97 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/tmp/13-password_cracker.odb'...
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          278660.8 u
+legalized HPWL         285050.7 u
+delta HPWL                    2 %
+
+[INFO DPL-0020] Mirrored 3310 instances
+[INFO DPL-0021] HPWL before          285050.7 u
+[INFO DPL-0022] HPWL after           278660.8 u
+[INFO DPL-0023] HPWL delta               -2.2 %
+Setting global connections for newly added cells...
+Writing OpenROAD database to /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/tmp/routing/diode.odb...
+Writing netlist to /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/tmp/routing/diode.nl.v...
+Writing powered netlist to /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/tmp/routing/diode.pnl.v...
+Writing layout to /openlane/designs/password_cracker/runs/RUN_2023.03.23_09.07.37/tmp/routing/diode.def...
